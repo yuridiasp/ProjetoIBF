@@ -1,0 +1,89 @@
+.feed {
+    position: relative;
+    margin-top: 10px;
+}
+
+.public {
+    position: relative;
+    background: #353D40;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px #00263b;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #1e2224;
+    border-radius: 5px;
+    color: #A1A5A6;
+}
+
+.cabecalho h1:hover,.cabecalho h2:hover {
+    filter: brightness(2);
+}
+
+.contentfotoUser {
+    border: 5px solid;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.contentfotoUser:hover {
+    border: 5px solid white;
+}
+
+.fotoUser {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.idUser {
+    font-size: 0.8em;
+    margin-left: -120px;
+    cursor: default;
+}
+
+.options {
+    display: flex;
+    position: relative;
+    border: 3px solid;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.options:hover {
+    filter: brightness(2);
+}
+
+.fotopub {
+    width: 500px;
+}
+
+.legenda {
+    padding: 20px;
+    text-align: justify;
+}
+
+.hashtag {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #A1A5A6;
+}
+
+.logoIBF:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}

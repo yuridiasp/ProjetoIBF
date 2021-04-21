@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style-comum.css">
+    <link rel="stylesheet" href="style-feed.css">
+    <link rel="stylesheet" href="style-menu.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <title>Igreja Bíblica da Família - Feed</title>
+</head>
+<body>
+    <header>
+        <div class="logoIBF" onclick="navegar('x')">
+            <img id="logoibf" src="imagens/logoIBF.png" alt="Logo da Igreja Bíblica da Família">
+        </div>
+        <div>
+            <input class="butPesquisaStyled" type="search" name="pesquisa" id="pesquisa" aria-label="Caixa de Pesquisa" placeholder="Pesquisar">
+        </div>
+        <div>
+            <input class="butStyled" type="button" value="Login">
+        </div>
+    </header>
+    <section class="sec-feed">
+        <div class="feed">
+            <div class="public">
+                <div class="cabecalho">
+                    <div class="contentfotoUser">
+                        <img class="fotoUser" src="imagens/perfil.jpg" alt="Foto de perfil do Usuário">
+                    </div>
+                    <div class="idUser">
+                        <h1 class="nomeperfil">I. Bíblica da Família</h1>
+                        <h2 id="datapub1">...</h2>
+                    </div>
+                    <div class="options">
+                        <p><strong>+</strong></p>
+                    </div>
+                </div>
+                <div class="conteudo">
+                    <img class="fotopub" src="/imagens/pub1.jpg" alt="Foto da Publicação">
+                </div>
+                <div class="legenda">
+                    "Porque, sempre que comerem deste pão e beberem deste cálice, vocês anunciam a morte do Senhor até que ele venha."<br>(1 Coríntios 11:26)
+                </div>
+                <div class="hashtag">
+                    #ifbAracaju
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="butmenu" onclick="navegar(0)">Agenda</li>
+                <li class="butmenu" onclick="navegar(1)">Localização</li>
+                <li class="butmenu" onclick="navegar(2)">Nossas Redes e Contatos</li>
+                <li class="butmenu" onclick="navegar(3)">Quem somos</li>
+                <li class="butmenu" onclick="navegar(4)">Pilares</li>
+                <li class="butmenu" onclick="navegar(5)">Pedido de Oração</li>
+                <li class="butmenu" onclick="navegar(6)">Missões</li>
+                <li class="butmenu" onclick="navegar(7)">Fotografia</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="sobre">
+            <div>
+                <h1>Quem Somos</h1>
+                <p>Somos um povo que deseja a semelhança com o Pai, que ama o Filho e que é guiado pelo Espírito! Somos uma família que nasceu para transformar a nossa cidade através do Evangelho!</p>
+            </div>
+            <div>
+                <ul id="redes">
+                    <li><a href="#"><span></span></a></li>
+                    <li><a href="#"><span></span></a></li>
+                    <li><a href="#"><span></span></a></li>
+                    <li><a href="#"><span></span></a></li>
+                    <li><a href="#"><span></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="links">
+            <h1>Links Rápidos</h1>
+            <ul>
+                <li>
+                    <a href="#">Agenda</a>
+                </li>
+                <li>
+                    <a href="#">Localização</a>
+                </li>
+                <li>
+                    <a href="#">Nossas Redes e Contatos</a>
+                </li>
+                <li>
+                    <a href="#">Quem somos</a>
+                </li>
+                <li>
+                    <a href="#">Pilares</a>
+                </li>
+                <li>
+                    <a href="#">Pedido de Oração</a>
+                </li>
+                <li>
+                    <a href="#">Missões</a>
+                </li>
+                <li>
+                    <a href="#">Fotografia</a>
+                </li>
+            </ul>
+        </div>
+        <div class="contatos">
+            <h1>Contatos</h1>
+            <ul>
+                <li>
+                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <a href="">
+                        <p>Rua Milena Souza de Jesus, 150<br>Lamarão, AJU-SE</p>
+                    </a>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <a href="tel:79999999999">
+                        <p>(79) 99999-9999
+                    </a><br><a href="tel:7932459999">(79) 3245-9999</p></a>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <a href="mailto:igrejabiblicadafamila@ibf.com.br">
+                        <p>igrejabiblicadafamila@ibf.com.br</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright">
+        &copy; 2021 IGREJA BÍBÍCA DA FAMÍLIA. TODOS OS DIREITOS RESERVADOS.
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

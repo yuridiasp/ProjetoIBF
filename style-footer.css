@@ -1,0 +1,162 @@
+#redes {
+    display: flex;
+}
+
+#redes li {
+    position: relative;
+    margin: 5px;
+}
+
+#redes li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    transition: 0.5s;
+    background: #ccc;
+}
+
+#redes li a span {
+    width: 100%;
+    height: 100%;
+}
+
+#redes li a span::before {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: #262626;
+    transform-origin: top;
+    transition: 0.5s;
+}
+
+#redes li:hover a span::before {
+    transform: rotateX(90deg) translateY(-50%);
+}
+
+#redes li a span::after {
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    color: #262626;
+    transform-origin: bottom;
+    transition: 0.5s;
+    transform: rotateX(90deg) translateY(50%);
+}
+
+#redes li:hover a span::after {
+    transform: rotateX(0) translateY(0);
+}
+
+#redes li:nth-child(1) a span::after, #redes li:nth-child(1) a span::before {
+    content: "\f232";
+}
+
+#redes li:nth-child(2) a span::after, #redes li:nth-child(2) a span::before {
+    content: "\f09a";
+}
+
+#redes li:nth-child(3) a span::after, #redes li:nth-child(3) a span::before {
+    content: "\f16d";
+}
+
+#redes li:nth-child(4) a span::after, #redes li:nth-child(4) a span::before {
+    content: "\f099";
+}
+
+#redes li:nth-child(5) a span::after, #redes li:nth-child(5) a span::before {
+    content: "\f16a";
+}
+
+#redes li:nth-child(1) a span::after {
+    background: #41BF49;
+    color: white;
+}
+
+#redes li:nth-child(2) a span::after {
+    background: #295FA6;
+    color: white;
+}
+
+#redes li:nth-child(3) a span::after {
+    background: #F2506E;
+    color: white;
+}
+
+#redes li:nth-child(4) a span::after {
+    background: #1DB6F2;
+    color: white;
+}
+
+#redes li:nth-child(5) a span::after {
+    background: #F24141;
+    color: white;
+}
+
+footer div h1::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .contatos a,footer .links a {
+    color: #A1A5A6;
+    text-decoration: none;
+}
+
+footer .contatos a:hover,footer .links a:hover {
+    filter: brightness(2);
+}
+
+.links li {
+    margin-bottom: 8px;
+}
+
+footer h1 {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+footer h1:hover {
+    filter: brightness(2);
+    cursor: default;
+}
+
+.contatos li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contatos li span:nth-child(1) {
+    margin-right: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    font-size: 0.7em;
+    background: #353D40;
+    z-index: 0;
+}
